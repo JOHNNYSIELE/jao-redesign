@@ -1,8 +1,51 @@
 {
   "home": {
-    "homeImage":"assets/images/home/homeImage.png"
+    "homeImage": "assets/images/home/homeImage.png"
   },
-  "about": {},
-  "collage": {},
-  "photography": {}
+  "about": {
+    "aboutTitle":"About",
+    "aboutText":"I graduated from Exeter College of Art in 1979 with a degree in graphic design. I then embarked on a career that has encompassed professional photography, running several design companies, working in advertising and in latter years in marketing consultancy.I’d been collecting weird and wonderful books, ephemera and objects for many years and after signing up for a contemporary mixed media painting course at Central Saint Martins in 2007, I was back at art school again after nearly 30 years away and loving it, experimenting with techniques such as photo transfer and collage and using some of the materials that I’d been collecting – I have an ‘old school’ approach to my work. Everything is hand cut from original materials. My influences include artists such as Peter Blake, Robert Rauschenberg, Richard Hamilton, John Stezaker, Rodrigo de Filippis and a Brighton artist, Maria Rivens.In my photographic work I am interested in images of the everyday, usually overlooked by a world that hurries by. Influences include the work of Raymond Moore, Martin Parr, Chris Steele-Perkins, Jacques-Henri Lartigue, Henri Cartier-Bresson and Elliot Erwitt.I’m happy to take commissions such as bespoke original collages. Giclee prints are available in limited editions and some original collages are also available to purchase.",
+    "aboutImage": "assets/images/about/about.png"
+  },
+  "collage": {
+    "besideTheSea": {
+      "besideTheSeaTitle":"Beside The Sea",
+      "besideTheSeaText":"People ask what’s my work all about? Well the Beside the Sea series is definitely memories – predominately of my childhood days by the sea. I am lucky to now be living on the south coast of England and the British seaside continues to influence and inspire both my collage and photographic work. The three original collages, approximately 630 x 460, have now been sold to a family who have hung them as a tryptic in their holiday home. Limited edition Giclee prints are available.",
+      "imageOne": "assets/images/byTheSea/postcard1.png",
+      "imageTwo": "assets/images/byTheSea/postcard2.png",
+      "imageThree": "assets/images/byTheSea/postcard3.png"
+    },
+    "nationalGeographic": {
+      "nationalGeographicTitle":"National Geographic",
+      "nationalGeographicText":"The National Geographic series grew out of a pile of National Geographic magazines from the fifties and sixties found in one of my favourite shops in Brighton. The style of photography, scale and colour work well together when cut and spliced and co-joined with other elements: maps, game cards, cigarette cards, cut-outs from Ladybird books. Number 7 is the largest of the works and is based on a number of pages illustrating different types of trees. Collages 1 to 6 are approximately 400/500 X 350/400, number 7 is approximately 600 X 400. Collages 2 & 3 have been sold to a US collector, and number 7 hangs in my parents house. Collages 1, 4, 5, & 6 are for sale. Limited edition Giclee prints are also available.",
+      "imageOne":"assets/images/nationalGeographic/nationalGeographic1.png",
+      "imageTwo":"assets/images/nationalGeographic/nationalGeographic2.png",
+      "imageThree":"assets/images/nationalGeographic/nationalGeographic3.png",
+      "imageFour":"assets/images/nationalGeographic/nationalGeographic4.png",
+      "imageFive":"assets/images/nationalGeographic/nationalGeographic5.png",
+      "imageSix":"assets/images/nationalGeographic/nationalGeographic6.png",
+      "imageSeven":"assets/images/nationalGeographic/nationalGeographic7.png"
+    },
+    "robots": {
+      "robotsTitle":"Robots",
+      "robotsText":"I had great fun producing all five robot collages over a weekend, using a mix of materials I’d been saving for many years. I love the combination of the mis-matched components and the human figures. The five original collages, approximately 260 X 180, are for sale. Limited edition Giclee prints are also available.",
+      "imageOne":"assets/images/robots/robot1.png",
+      "imageTwo":"assets/images/robots/robot2.png",
+      "imageThree":"assets/images/robots/robot3.png",
+      "imageFour":"assets/images/robots/robot4.png",
+      "imageFive":"assets/images/robots/robot5.png",
+    },
+    "beautifulForBedtime": {
+      "beautifulForBedtimeTitle":"Beautiful For Bedtime",
+      "beautifulForBedtimeText":"One of my earlier works - memories of childhood: sheets, blankets, eiderdowns and being tucked in. The original collage, approximately 400 X 300, is for sale. A limited edition Giclee print is also available.",
+      "imageOne":"assets/images/beautifulForBedtime/beautifulForBedtime1.png"
+    },
+    "iCanWrite": {}
+  },
+  "photography": {
+    "australia": {},
+    "antigua": {},
+    "abstracts": {},
+    "beachHuts": {}
+  }
 }
