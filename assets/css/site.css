@@ -20,40 +20,57 @@ a:hover, a:visited, a:link, a:active {
 }
 /*Top Section*/
 .menuLinkHome{
-    font-size: 35px;
+    font-size: 30px;
 }
 .phoneNumber {
     font-style: italic;
-    font-size: 22px;
+    font-size: 16px;
 }
 .email {
-    font-size: 15px;
+    font-size: 14px;
 }
 /*About Link*/
 .menuAboutLink {
     margin-top: 15px;
 }
 .aboutLink {
-    font-size: 36px;
+    font-size: 26px;
 }
 /*Gallery Links*/
 .menuLinksToGalleries {
     margin-top: 15px;
 }
 .menuLinksToGalleries label {
-    font-size: 24px;
+    font-size: 26px;
 }
 .menuLinksToGalleries a {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /*Home Page Styling*/
 .homeImage {
-    margin-top: 25px;
-    margin-left: 25px;
-    height: 75%;
+    margin-top: 50px;
+    margin-left: 45px;
+    /*height: 75%;*/
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
+}
+
+/*About Page*/
+.aboutPageContainer{
+    margin-top: 50px;
+    margin-left: 45px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
+.aboutPageContainer p {
+    padding: 5px 0 5px 0;
+}
+.aboutImage {
+    height: 35%;
+}
+.aboutText {
+    width: 75%;
 }
