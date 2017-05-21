@@ -1,0 +1,59 @@
+/*All Site*/
+* {
+    color:#333;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    color:#333!important;
+}
+/*Menu Styling*/
+/*All menu elements*/
+.menuTopSection, .menuAboutLink, .menuLinksToGalleries {
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*Whole menu container*/
+.menuContainer {
+    margin-top: 50px;
+}
+/*Top Section*/
+.menuLinkHome{
+    font-size: 35px;
+}
+.phoneNumber {
+    font-style: italic;
+    font-size: 22px;
+}
+.email {
+    font-size: 15px;
+}
+/*About Link*/
+.menuAboutLink {
+    margin-top: 15px;
+}
+.aboutLink {
+    font-size: 36px;
+}
+/*Gallery Links*/
+.menuLinksToGalleries {
+    margin-top: 15px;
+}
+.menuLinksToGalleries label {
+    font-size: 24px;
+}
+.menuLinksToGalleries a {
+    font-size: 17px;
+}
+
+/*Home Page Styling*/
+.homeImage {
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 75%;
+    -webkit-box-shadow: 3px 3px 12px #808080;
+    -moz-box-shadow: 3px 3px 12px #808080;
+    box-shadow: 3px 3px 12px #808080;
+    background-color: #808080;
+}
