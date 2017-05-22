@@ -3,6 +3,11 @@
 /*font-family: 'Roboto Slab', serif;*/
 /*font-family: 'Warnes', sans-serif*/
 
+@font-face {
+    font-family: ostrichBold;
+    src: url('ostrich-bold-webfont.woff') format('woff');
+}
+
 /*All Site*/
 * {
     color:#333;
@@ -20,6 +25,8 @@
 .LPtext{
     float: right;
     margin-top: 10px;
+    font-family: ostrichBold;
+    font-size: 65px;
 }
 
 /*General Link styling*/
@@ -134,7 +141,6 @@ a:hover, a:visited, a:link, a:active {
     overflow: auto;
     height: inherit;
     display: inline-block;
-    background-color: default;
     position: absolute;
 }
 .besideTheSeaSingleImage{
@@ -155,7 +161,6 @@ a:hover, a:visited, a:link, a:active {
     overflow: auto;
     height: inherit;
     display: inline-block;
-    background-color: default;
     position: absolute;
 }
 .natGeoSingleImage{

@@ -65,7 +65,7 @@
                 templateUrl: "app/bhView.html"
             })
             .otherwise({
-                redirectTo: "/"
+                redirectTo: "/about"
             });
 
     });
