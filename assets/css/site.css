@@ -96,20 +96,22 @@ a:hover, a:visited, a:link, a:active {
     margin-left: 45px;
     letter-spacing: 1.5px;
     font-size: 16px;
+    float: left;
 }
 .besideTheSeaContainer p {
     padding: 5px 0 5px 0;
 }
 .besideTheSeaText {
     width: 520px;
+    display: inline-block;
 }
 .besideTheSeaImages{
-    margin-top: -180px!important;
+    margin-top: 50px!important;
     margin-left: 20px;
-    width: 230%;
+    width: 140%;
     overflow: auto;
     height: inherit;
-    display: block;
+    display: inline-block;
     background-color: default;
     position: absolute;
 }

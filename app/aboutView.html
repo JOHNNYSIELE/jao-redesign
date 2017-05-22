@@ -1,10 +1,19 @@
-<div class="aboutPageContainer">
-    <img class="img-responsive aboutImage" ng-src="{{aboutImage}}" />
-    <h3>{{aboutTitle}}</h3>
-    <div class="aboutText">
-        <p>{{aboutText.p1}}</p>
-        <p>{{aboutText.p2}}</p>
-        <p>{{aboutText.p3}}</p>
-        <p>{{aboutText.p4}}</p>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2 menu-col">
+            <div ng-include="'assets/html/menu.html'"></div>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+            <div class="aboutPageContainer">
+                <img class="img-responsive aboutImage" ng-src="{{aboutImage}}"/>
+                <h3>{{aboutTitle}}</h3>
+                <div class="aboutText">
+                    <p>{{aboutText.p1}}</p>
+                    <p>{{aboutText.p2}}</p>
+                    <p>{{aboutText.p3}}</p>
+                    <p>{{aboutText.p4}}</p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
