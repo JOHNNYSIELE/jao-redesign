@@ -1,1 +1,22 @@
-Beautiful For Bedtime
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2 menu-col">
+            <div ng-include="'assets/html/menu.html'"></div>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+            <div class="beautifulForBedtimeContainer">
+                <div class="beautifulForBedtimeTitle">
+                    <h3>{{beautifulForBedtimeTitle}}</h3>
+                </div>
+                <div class="beautifulForBedtimeText">
+                    <p>{{beautifulForBedtimeText.p1}}</p>
+                    <p>{{beautifulForBedtimeText.p2}}</p>
+                </div>
+            </div>
+            <div class="beautifulForBedtimeImages">
+                <img class="beautifulForBedtimeImage" ng-repeat="x in beautifulForBedtimeImages track by $index" ng-src="{{x.imageSrc}}"
+                     alt="{{x.altText}}">
+            </div>
+        </div>
+    </div>
+</div>
