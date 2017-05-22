@@ -91,24 +91,25 @@ a:hover, a:visited, a:link, a:active {
 
 /*Collage*/
 /*Beside the Sea*/
-.besideTheSeaContainer {
+.besideTheSeaContainer, .natGeoContainer {
     margin-top: 220px;
     margin-left: 45px;
     letter-spacing: 1.5px;
     font-size: 16px;
     float: left;
 }
-.besideTheSeaContainer p {
+.besideTheSeaContainer p, .natGeoContainer p {
     padding: 5px 0 5px 0;
 }
-.besideTheSeaText {
+.besideTheSeaText, .natGeoText {
     width: 520px;
     display: inline-block;
 }
 .besideTheSeaImages{
     margin-top: 50px!important;
-    margin-left: 20px;
-    width: 140%;
+    margin-left: 100px;
+    padding: 50px 50px 50px 50px;
+    width: 180%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -118,5 +119,30 @@ a:hover, a:visited, a:link, a:active {
 .besideTheSeaSingleImage{
     float: left;
     height: 85%;
-    margin: 0 -50px 0 -50px;
+    margin-right: 50px;
+    -webkit-box-shadow: 3px 3px 12px #808080;
+    -moz-box-shadow: 3px 3px 12px #808080;
+    box-shadow: 3px 3px 12px #808080;
+    background-color: #808080;
+}
+/*Nat Geo*/
+.natGeoImages{
+    margin-top: 50px!important;
+    margin-left: 100px;
+    padding: 50px 50px 50px 50px;
+    width: 490%;
+    overflow: auto;
+    height: inherit;
+    display: inline-block;
+    background-color: default;
+    position: absolute;
+}
+.natGeoSingleImage{
+    float: left;
+    height: 85%;
+    margin-right: 50px;
+    -webkit-box-shadow: 3px 3px 12px #808080;
+    -moz-box-shadow: 3px 3px 12px #808080;
+    box-shadow: 3px 3px 12px #808080;
+    background-color: #808080;
 }

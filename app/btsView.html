@@ -14,9 +14,9 @@
                 </div>
             </div>
             <div class="besideTheSeaImages">
-                <div class="besideTheSeaImageDiv" ng-repeat="x in btsImages track by $index">
-                    <img class="besideTheSeaSingleImage" ng-src="{{x.imageSrc}}" alt="{{x.altText}}">
-                </div>
+                <img class="besideTheSeaSingleImage" ng-repeat="x in btsImages track by $index" ng-src="{{x.imageSrc}}"
+                     alt="{{x.altText}}">
+
             </div>
         </div>
     </div>
