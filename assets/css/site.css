@@ -88,6 +88,11 @@ a:hover, a:visited, a:link, a:active {
 .menuLinksToGalleries a {
     font-size: 18px;
 }
+.credit{
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+}
 
 /*Home Page Styling*/
 .homeImage {
