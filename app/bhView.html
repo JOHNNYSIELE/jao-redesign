@@ -1,1 +1,13 @@
-Beach Huts
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-2 col-lg-2 menu-col">
+            <div ng-include="'assets/html/menu.html'"></div>
+        </div>
+        <div class="col-xs-12 col-md-10 col-lg-10">
+            <div class="beachHutsImages">
+                <img class="beachHutsImage" ng-repeat="x in beachHutsImages track by $index" ng-src="{{x.imageSrc}}"
+                     alt="{{x.altText}}">
+            </div>
+        </div>
+    </div>
+</div>

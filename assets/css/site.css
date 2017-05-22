@@ -292,3 +292,23 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+/*Beach Hut*/
+.beachHutsImages{
+    margin-top: 50px!important;
+    margin-left: 50px;
+    padding: 50px 50px 50px 50px;
+    width: 140%;
+    overflow: auto;
+    height: inherit;
+    display: inline-block;
+    position: absolute;
+}
+.beachHutsImage{
+    float: left;
+    height: 85%;
+    margin-right: 50px;
+    -webkit-box-shadow: 3px 3px 12px #808080;
+    -moz-box-shadow: 3px 3px 12px #808080;
+    box-shadow: 3px 3px 12px #808080;
+    background-color: #808080;
+}
