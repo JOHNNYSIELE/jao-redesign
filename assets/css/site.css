@@ -89,8 +89,8 @@ a:hover, a:visited, a:link, a:active {
     font-size: 18px;
 }
 .credit{
-    font-size: small;
-    position: fixed;
+    font-size: x-small;
+    position:absolute;
     bottom: 0;
 }
 
@@ -139,10 +139,10 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
 }
 .besideTheSeaImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
-    width: 180%;
+    width: 200%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -159,10 +159,10 @@ a:hover, a:visited, a:link, a:active {
 }
 /*Nat Geo*/
 .natGeoImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
-    width: 490%;
+    width: 550%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -179,10 +179,10 @@ a:hover, a:visited, a:link, a:active {
 }
 /*Robots*/
 .robotsImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
-    width: 220%;
+    width: 270%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -199,7 +199,7 @@ a:hover, a:visited, a:link, a:active {
 }
 /*beautifulForBedtime*/
 .beautifulForBedtimeImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
     overflow: auto;
@@ -239,10 +239,10 @@ a:hover, a:visited, a:link, a:active {
 /*Photography*/
 /*Australia*/
 .australiaImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 300%;
+    width: 350%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -259,10 +259,10 @@ a:hover, a:visited, a:link, a:active {
 }
 /*Antigua*/
 .antiguaImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 230%;
+    width: 280%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -279,10 +279,10 @@ a:hover, a:visited, a:link, a:active {
 }
 /*Abstracts*/
 .abstractsImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 240%;
+    width: 300%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -299,10 +299,10 @@ a:hover, a:visited, a:link, a:active {
 }
 /*Beach Hut*/
 .beachHutsImages{
-    margin-top: 50px!important;
+    margin-top: 30px!important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 140%;
+    width: 190%;
     overflow: auto;
     height: inherit;
     display: inline-block;
