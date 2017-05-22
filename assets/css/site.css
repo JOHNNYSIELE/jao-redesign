@@ -119,17 +119,17 @@ a:hover, a:visited, a:link, a:active {
 
 /*Collage*/
 /*Beside the Sea*/
-.besideTheSeaContainer, .natGeoContainer {
+.besideTheSeaContainer, .natGeoContainer, .robotsContainer {
     margin-top: 220px;
     margin-left: 45px;
     letter-spacing: 1.5px;
     font-size: 16px;
     float: left;
 }
-.besideTheSeaContainer p, .natGeoContainer p {
+.besideTheSeaContainer p, .natGeoContainer p, .robotsContainer p {
     padding: 5px 0 5px 0;
 }
-.besideTheSeaText, .natGeoText {
+.besideTheSeaText, .natGeoText, .robotsText {
     width: 520px;
     display: inline-block;
 }
@@ -164,6 +164,26 @@ a:hover, a:visited, a:link, a:active {
     position: absolute;
 }
 .natGeoSingleImage{
+    float: left;
+    height: 85%;
+    margin-right: 50px;
+    -webkit-box-shadow: 3px 3px 12px #808080;
+    -moz-box-shadow: 3px 3px 12px #808080;
+    box-shadow: 3px 3px 12px #808080;
+    background-color: #808080;
+}
+/*Robots*/
+.robotsImages{
+    margin-top: 50px!important;
+    margin-left: 100px;
+    padding: 50px 50px 50px 50px;
+    width: 220%;
+    overflow: auto;
+    height: inherit;
+    display: inline-block;
+    position: absolute;
+}
+.robotsSingleImage{
     float: left;
     height: 85%;
     margin-right: 50px;
