@@ -1,15 +1,18 @@
-<div class="besideTheSeaContainer">
-    <div class="besideTheSeaTitle">
-        <h3>{{btsTitle}}</h3>
+<div class="row besideTheSeaContainer">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="besideTheSeaTitle">
+            <h3>{{btsTitle}}</h3>
+        </div>
+        <div class="besideTheSeaText">
+            <p>{{btsText.p1}}</p>
+            <p>{{btsText.p2}}</p>
+        </div>
     </div>
-    <div class="besideTheSeaText">
-        <p>{{btsText.p1}}</p>
-        <p>{{btsText.p2}}</p>
-    </div>
-    <div class="besideTheSeaImages">
-        <div class="besideTheSeaImageDiv" ng-repeat="x in btsImages track by $index">
-            <img class="besideTheSeaSingleImage" ng-src="{{x.imageSrc}}" alt="{{x.altText}}">
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="besideTheSeaImages">
+            <div class="besideTheSeaImageDiv" ng-repeat="x in btsImages track by $index">
+                <img class="besideTheSeaSingleImage" ng-src="{{x.imageSrc}}" alt="{{x.altText}}">
+            </div>
         </div>
     </div>
 </div>
-

@@ -103,3 +103,18 @@ a:hover, a:visited, a:link, a:active {
 .besideTheSeaText {
     width: 520px;
 }
+.besideTheSeaImages{
+    margin-top: -180px!important;
+    margin-left: 20px;
+    width: 230%;
+    overflow: auto;
+    height: inherit;
+    display: block;
+    background-color: default;
+    position: absolute;
+}
+.besideTheSeaSingleImage{
+    float: left;
+    height: 85%;
+    margin: 0 -50px 0 -50px;
+}
