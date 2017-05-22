@@ -1,7 +1,28 @@
+/*font-family: 'Concert One', cursive;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Roboto Slab', serif;*/
+/*font-family: 'Warnes', sans-serif*/
+
 /*All Site*/
 * {
     color:#333;
 }
+/*Landing Page*/
+.LPcontainer{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.LPtitle{
+    text-align: center;
+}
+.LPtext{
+    float: right;
+    margin-top: 10px;
+}
+
+/*General Link styling*/
 a:hover, a:visited, a:link, a:active {
     text-decoration: none!important;
     -webkit-box-shadow: none!important;
