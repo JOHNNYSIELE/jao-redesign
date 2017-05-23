@@ -37,7 +37,7 @@
 .out {
     /*animation: blinker 0.3s ease-in-out 3s infinite alternate;*/
     -webkit-animation-name: color2;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -webkit-animation-delay: 0s;
