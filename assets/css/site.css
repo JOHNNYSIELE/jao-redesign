@@ -10,87 +10,145 @@
 
 /*All Site*/
 * {
-    color:#333;
+    color: #333;
 }
+
 /*Landing Page*/
-.LPcontainer{
+.LPcontainer {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.LPtitle{
+
+.LPtitle {
     text-align: center;
 }
-.LPtext{
+
+.LPtext {
     float: right;
     margin-top: 10px;
     font-family: ostrichBold;
     font-size: 65px;
+    text-shadow: 0px 0px 10px #FF4500;
+    color: #FF0000
+}
+
+.out {
+    /*animation: blinker 0.3s ease-in-out 3s infinite alternate;*/
+    -webkit-animation-name: color2;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+}
+
+/*@keyframes blinker {*/
+    /*75% {*/
+        /*opacity: 0;*/
+    /*}*/
+/*}*/
+@-webkit-keyframes color2 {
+    0% {
+    }
+    5%,25% {
+        text-shadow: -2px -5px 10px #fb0017,
+    }
+    15%,35% {
+        text-shadow: 2px 5px 10px #fb0017,
+    }
+    40% {
+        text-shadow: none;
+    }
+}
+
+h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /*General Link styling*/
 a:hover, a:visited, a:link, a:active {
-    text-decoration: none!important;
-    -webkit-box-shadow: none!important;
-    box-shadow: none!important;
-    color:#333!important;
+    text-decoration: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    color: #333 !important;
 }
+
 /*Menu Styling*/
 /*All menu elements*/
 .menuTopSection, .menuAboutLink, .menuLinksToGalleries {
     text-align: center;
     letter-spacing: 2px;
 }
+
 /*Whole menu container*/
-/*TODO - sort out on makeing the screen shorter the menu bar will stay full height and text do scrollale*/
-.menu-col{
+/*TODO - sort out on makeing the screen shorter the menu bar will stay full height and text do scrollable*/
+.menu-col {
     -webkit-box-shadow: 0px 2px 20px #000000;
     -moz-box-shadow: 0px 2px 20px #000000;
     box-shadow: 0px 2px 20px #000000;
     height: 100%;
 }
+
 .menuContainer {
     margin-top: 50px;
 }
+
 /*Top Section*/
-.menuLinkHome{
+.menuLinkHome {
     font-size: 30px;
 }
+
 .phoneNumber {
     font-style: italic;
     font-size: 16px;
 }
+
 .email {
     font-size: 14px;
 }
+
 /*Social Icons*/
-.fa-facebook-official:hover{
-    color: #3b5998!important;
+.fa-facebook-official:hover {
+    color: #3b5998 !important;
 }
-.fa-instagram:hover{
-    color: #cd486b!important;
+
+.fa-instagram:hover {
+    color: #cd486b !important;
 }
+
 /*About Link*/
 .menuAboutLink {
     margin-top: 15px;
 }
+
 .aboutLink {
     font-size: 26px;
 }
+
 /*Gallery Links*/
 .menuLinksToGalleries {
     margin-top: 15px;
 }
+
 .menuLinksToGalleries label {
     font-size: 26px;
 }
+
 .menuLinksToGalleries a {
     font-size: 18px;
 }
-.credit{
+
+.credit {
     font-size: x-small;
-    position:absolute;
+    position: absolute;
     bottom: 0;
 }
 
@@ -106,18 +164,21 @@ a:hover, a:visited, a:link, a:active {
 }
 
 /*About Page*/
-.aboutPageContainer{
+.aboutPageContainer {
     margin-top: 50px;
     margin-left: 45px;
     letter-spacing: 1.5px;
     font-size: 16px;
 }
+
 .aboutPageContainer p {
     padding: 5px 0 5px 0;
 }
+
 .aboutImage {
     height: 35%;
 }
+
 .aboutText {
     width: 75%;
 }
@@ -131,15 +192,18 @@ a:hover, a:visited, a:link, a:active {
     font-size: 16px;
     float: left;
 }
+
 .besideTheSeaContainer p, .natGeoContainer p, .robotsContainer p, .beautifulForBedtimeContainer p, .iCanWriteContainer p {
     padding: 5px 0 5px 0;
 }
+
 .besideTheSeaText, .natGeoText, .robotsText, .beautifulForBedtimeText, .iCanWriteText {
     width: 520px;
     display: inline-block;
 }
-.besideTheSeaImages{
-    margin-top: 30px!important;
+
+.besideTheSeaImages {
+    margin-top: 30px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
     width: 200%;
@@ -148,7 +212,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.besideTheSeaSingleImage{
+
+.besideTheSeaSingleImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -157,9 +222,10 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+
 /*Nat Geo*/
-.natGeoImages{
-    margin-top: 30px!important;
+.natGeoImages {
+    margin-top: 30px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
     width: 550%;
@@ -168,7 +234,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.natGeoSingleImage{
+
+.natGeoSingleImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -177,9 +244,10 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+
 /*Robots*/
-.robotsImages{
-    margin-top: 30px!important;
+.robotsImages {
+    margin-top: 30px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
     width: 270%;
@@ -188,7 +256,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.robotsSingleImage{
+
+.robotsSingleImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -197,9 +266,10 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+
 /*beautifulForBedtime*/
-.beautifulForBedtimeImages{
-    margin-top: 30px!important;
+.beautifulForBedtimeImages {
+    margin-top: 30px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
     overflow: auto;
@@ -207,7 +277,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.beautifulForBedtimeImage{
+
+.beautifulForBedtimeImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -216,9 +287,10 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+
 /*I Can Write*/
-.iCanWriteImages{
-    margin-top: 50px!important;
+.iCanWriteImages {
+    margin-top: 50px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
     overflow: auto;
@@ -226,7 +298,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.iCanWriteImage{
+
+.iCanWriteImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -238,8 +311,8 @@ a:hover, a:visited, a:link, a:active {
 
 /*Photography*/
 /*Australia*/
-.australiaImages{
-    margin-top: 30px!important;
+.australiaImages {
+    margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
     width: 350%;
@@ -248,7 +321,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.australiaImage{
+
+.australiaImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -257,9 +331,10 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+
 /*Antigua*/
-.antiguaImages{
-    margin-top: 30px!important;
+.antiguaImages {
+    margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
     width: 280%;
@@ -268,7 +343,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.antiguaImage{
+
+.antiguaImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -277,9 +353,10 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+
 /*Abstracts*/
-.abstractsImages{
-    margin-top: 30px!important;
+.abstractsImages {
+    margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
     width: 300%;
@@ -288,7 +365,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.abstractsImage{
+
+.abstractsImage {
     float: left;
     height: 85%;
     margin-right: 50px;
@@ -297,9 +375,10 @@ a:hover, a:visited, a:link, a:active {
     box-shadow: 3px 3px 12px #808080;
     background-color: #808080;
 }
+
 /*Beach Hut*/
-.beachHutsImages{
-    margin-top: 30px!important;
+.beachHutsImages {
+    margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
     width: 190%;
@@ -308,7 +387,8 @@ a:hover, a:visited, a:link, a:active {
     display: inline-block;
     position: absolute;
 }
-.beachHutsImage{
+
+.beachHutsImage {
     float: left;
     height: 85%;
     margin-right: 50px;
