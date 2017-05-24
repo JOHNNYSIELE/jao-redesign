@@ -176,11 +176,11 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .aboutImage {
-    height: 35%;
+    height: 33%;
 }
 
 .aboutText {
-    width: 75%;
+    width: 80%;
 }
 
 /*Collage*/
@@ -215,7 +215,7 @@ a:hover, a:visited, a:link, a:active {
 
 .besideTheSeaSingleImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -237,7 +237,7 @@ a:hover, a:visited, a:link, a:active {
 
 .natGeoSingleImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -259,7 +259,7 @@ a:hover, a:visited, a:link, a:active {
 
 .robotsSingleImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -280,7 +280,7 @@ a:hover, a:visited, a:link, a:active {
 
 .beautifulForBedtimeImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -301,7 +301,7 @@ a:hover, a:visited, a:link, a:active {
 
 .iCanWriteImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -324,7 +324,7 @@ a:hover, a:visited, a:link, a:active {
 
 .australiaImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -346,7 +346,7 @@ a:hover, a:visited, a:link, a:active {
 
 .antiguaImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -368,7 +368,7 @@ a:hover, a:visited, a:link, a:active {
 
 .abstractsImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
@@ -390,7 +390,7 @@ a:hover, a:visited, a:link, a:active {
 
 .beachHutsImage {
     float: left;
-    height: 85%;
+    height: 75%;
     margin-right: 50px;
     -webkit-box-shadow: 3px 3px 12px #808080;
     -moz-box-shadow: 3px 3px 12px #808080;
