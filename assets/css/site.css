@@ -21,7 +21,7 @@
     transform: translate(-50%, -50%);
 }
 
-h1 {
+.LPcontainer h1 {
     color: #333;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
