@@ -21,56 +21,15 @@
     transform: translate(-50%, -50%);
 }
 
-.LPtitle {
-    text-align: center;
-}
-
-.LPtext {
-    float: right;
-    margin-top: 10px;
-    font-family: ostrichBold;
-    font-size: 65px;
-    text-shadow: 0px 0px 10px #FF4500;
-    color: #FF0000
-}
-
-.out {
-    /*animation: blinker 0.3s ease-in-out 3s infinite alternate;*/
-    -webkit-animation-name: color2;
-    -webkit-animation-duration: 0.3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-delay: 0s;
-}
-
-/*@keyframes blinker {*/
-    /*75% {*/
-        /*opacity: 0;*/
-    /*}*/
-/*}*/
-@-webkit-keyframes color2 {
-    0% {
-    }
-    5%,25% {
-        text-shadow: -2px -5px 10px #fb0017,
-    }
-    15%,35% {
-        text-shadow: 2px 5px 10px #fb0017,
-    }
-    40% {
-        text-shadow: none;
-    }
-}
-
 h1 {
     color: #333;
-    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
     font-size: 62px;
     font-weight: 800;
     line-height: 72px;
     margin: 0 0 24px;
     text-align: center;
-    text-transform: uppercase;
 }
 
 /*General Link styling*/
@@ -206,7 +165,7 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 30px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
-    width: 200%;
+    width: 220%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -228,7 +187,7 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 30px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
-    width: 550%;
+    width: 600%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -250,7 +209,7 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 30px !important;
     margin-left: 100px;
     padding: 50px 50px 50px 50px;
-    width: 270%;
+    width: 350%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -315,7 +274,7 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 350%;
+    width: 450%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -337,7 +296,7 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 280%;
+    width: 350%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -359,7 +318,7 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 300%;
+    width: 400%;
     overflow: auto;
     height: inherit;
     display: inline-block;
@@ -381,7 +340,7 @@ a:hover, a:visited, a:link, a:active {
     margin-top: 30px !important;
     margin-left: 50px;
     padding: 50px 50px 50px 50px;
-    width: 190%;
+    width: 300%;
     overflow: auto;
     height: inherit;
     display: inline-block;
